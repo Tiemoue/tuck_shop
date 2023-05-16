@@ -1,0 +1,115 @@
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center
+}
+
+.circular-border {
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+  
+.my-class {  
+    color: #FFAE37;
+}
+
+.my-color {  
+    color: #FFAE37;
+    font-size: 110px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+.colleges{
+    font-weight: bolder;
+    font-size: 70px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: rgb(30, 25, 25);
+    text-align: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.image-border{
+    background-color: aqua;
+
+}
+
+.n{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 0;
+}
+
+.my-section {
+    height: fit-content;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+.red {
+    background-color: #F25B23;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+.cat{
+    margin: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+}
+   
+ 
+body {
+    background-color: black;
+    margin: 5px;
+    font-family: "Sofia", sans-serif;
+    padding: 0p
+}
+
+.email {
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 120px;
+}
+
+.submit-btn{
+    background-color: #FFAE37;
+    margin-left: 20px;
+    color: white;
+}
